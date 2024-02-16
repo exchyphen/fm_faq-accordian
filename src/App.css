@@ -1,0 +1,52 @@
+.main-container {
+  width: 525px;
+  height: auto;
+  background: var(--white);
+  border-radius: 20px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+h1 {
+  color: var(--dark-purple);
+  font-size: 3rem;
+}
+
+.faq-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background: var(--light-pink);
+}
+
+@media screen and (max-width: 525px) {
+  .main-container {
+    width: 375px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .header-icon {
+    width: auto;
+    height: 2rem;
+  }
+}

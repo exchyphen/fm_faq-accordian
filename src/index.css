@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Work Sans";
+  src: url("./assets/fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+:root {
+  /* colors */
+  --white: hsl(0, 0%, 100%);
+  --light-pink: hsl(275, 100%, 97%);
+  --grayish-purple: hsl(292, 16%, 49%);
+  --dark-purple: hsl(292, 42%, 14%);
+  --pink: hsl(282, 86%, 54%);
+
+  /* font */
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./assets/images/background-pattern-desktop.svg");
+  background-size: 1440px auto;
+  background-repeat: repeat-x;
+  background-color: var(--light-pink);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 525px) {
+  body {
+    background-image: url("./assets/images/background-pattern-mobile.svg");
+    background-size: 100% auto;
+  }
+}
