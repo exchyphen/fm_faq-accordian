@@ -46,7 +46,7 @@ Users should be able to:
 
 ### What I learned
 
-Allow for keyboard navigation by wrapping or changing activatable <div> elements as <button>, <a>, etc.
+Allow for keyboard navigation by wrapping or changing activatable div elements to "clickable" elements such as button, a, etc.
 
 ## Author
 
